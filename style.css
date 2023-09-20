@@ -40,9 +40,16 @@ section {
     list-style-type: square;
 }
 
+#team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .team-member {
     text-align: center;
     margin-bottom: 1rem;
+    padding-left: 1rem;
 }
 
 .team-member img {
