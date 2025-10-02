@@ -40,6 +40,18 @@ section {
     list-style-type: square;
 }
 
+#sponsors {
+	padding: 4px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #ffffff;
+}
+
+#sponsors img {
+	height: 85px;
+}
+
 #team {
     display: flex;
     justify-content: center;
